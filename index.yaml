@@ -2,10 +2,11 @@ apiVersion: v1
 entries:
   trino:
   - apiVersion: v2
-    appVersion: "370"
-    created: "2022-02-17T15:33:41.97554473Z"
-    description: Fast distributed SQL query engine for big data analytics
-    digest: 7a817f494d090bd76ad96cbdd237fcc3b91a4c88fea7db854170a4edc5d7a904
+    appVersion: "375"
+    created: "2022-04-20T18:03:14.467628931Z"
+    description: Fast distributed SQL query engine for big data analytics that helps
+      you explore your data universe
+    digest: 69cbbdf6ee6daeae34a706f4838ed5be9a04292fec474cc31b9dfc4d1fc8c07a
     home: https://trino.io/
     icon: https://trino.io/assets/trino.png
     maintainers:
@@ -16,40 +17,6 @@ entries:
     - https://github.com/trinodb/trino/tree/master/core/docker
     type: application
     urls:
-    - https://github.com/trinodb/charts/releases/download/trino-0.4.0/trino-0.4.0.tgz
-    version: 0.4.0
-  - apiVersion: v2
-    appVersion: "355"
-    created: "2021-10-19T06:56:07.352806959Z"
-    description: Fast distributed SQL query engine for big data analytics
-    digest: 36c7ab1becb2ac361909102de4cd5413d210831b67744a33ff4fa34fd7533275
-    home: https://trino.io/
-    icon: https://trino.io/assets/trino.png
-    maintainers:
-    - name: Trino community
-    name: trino
-    sources:
-    - https://github.com/trinodb/charts
-    - https://github.com/trinodb/trino/tree/master/core/docker
-    type: application
-    urls:
-    - https://github.com/trinodb/charts/releases/download/trino-0.3.0/trino-0.3.0.tgz
-    version: 0.3.0
-  - apiVersion: v2
-    appVersion: "355"
-    created: "2021-05-19T17:42:02.394763654Z"
-    description: Fast distributed SQL query engine for big data analytics
-    digest: 7154d516160c11d21b8fe587eebea58a42b4a2a9c9d2876429c75ebd96251dc3
-    home: https://trino.io/
-    icon: https://trino.io/assets/trino.png
-    maintainers:
-    - name: Trino community
-    name: trino
-    sources:
-    - https://github.com/trinodb/charts
-    - https://github.com/trinodb/trino/tree/master/core/docker
-    type: application
-    urls:
-    - https://github.com/trinodb/charts/releases/download/trino-0.2.0/trino-0.2.0.tgz
-    version: 0.2.0
-generated: "2021-05-19T17:42:02.209318602Z"
+    - https://github.com/linzebing/charts/releases/download/trino-0.7.0/trino-0.7.0.tgz
+    version: 0.7.0
+generated: "2022-04-20T18:03:14.467643031Z"
